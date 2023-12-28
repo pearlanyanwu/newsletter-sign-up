@@ -28,7 +28,6 @@ Users should be able to:
 
 ![](newsletter_1.png)
 ![](newsletter_2.png)
-![](newsletter_3.png)
 
 ## My process
 
