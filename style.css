@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  background-color: hsl(234, 29%, 20%);
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+.container-1,
+.container-2 {
+  margin-top: 9%;
+}
+
+.left,
+.right {
+  height: 593px;
+  width: 400px;
+  padding: 25px;
+}
+
+.left,
+.right,
+.container-2 {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.left {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.right {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.container-1 h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.container-1 h1,
+.container-1 p {
+  color: hsl(234, 29%, 20%);
+}
+
+.container-1 p {
+  font-size: 17px;
+}
+
+.container-1 p,
+#submit-button  {
+  width: 100%;
+}
+
+.container-1 p,
+li label,
+input,
+#submit-button {
+  margin-left: 1em;
+}
+
+.container-1 p,
+input {
+  margin-top: -1em;
+}
+
+li {
+  list-style: none;
+  margin-left: -1.5em;
+  line-height: 2em;
+}
+
+li img + label {
+  vertical-align: super;
+}
+
+h6 {
+  margin-left: 1.5em;
+}
+
+h6,
+.container-2 img {
+  margin-top: 3em;
+}
+
+input {
+  width: 99%;
+  border: 1px solid hsl(231, 7%, 60%);
+}
+
+input,
+button {
+  border-radius: 7px;
+}
+
+input,
+#dismiss-button {
+  height: 50px;
+}
+
+input::placeholder {
+  text-indent: 20px;
+}
+
+#submit-button {
+  height: 60px;
+  margin-top: 2em;
+}
+
+button {
+  background-color: hsl(235, 18%, 26%);
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.container-2 {
+  width: 500px;
+  height: 500px;
+  border-radius: 40px;
+  display: none;
+  margin-left: 35%;
+}
+
+.container-2 img {
+  margin-left: 3.5em;
+}
+
+.container-2 h1 {
+  font-size: 50px;
+  margin-left: 1.2em;
+}
+
+.container-2 p {
+  margin-left: 4em;
+}
+
+.container-2 p,
+#dismiss-button {
+  width: 75%;
+}
+
+#dismiss-button {
+  margin-top: 1.5em;
+  margin-left: 4.5em;
+}
