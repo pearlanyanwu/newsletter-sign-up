@@ -12,6 +12,7 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
+  position: relative;
 }
 
 .container-1,
@@ -107,6 +108,7 @@ input,
   height: 50px;
 }
 
+input,
 input::placeholder {
   text-indent: 20px;
 }
@@ -130,8 +132,12 @@ button:hover {
   width: 500px;
   height: 500px;
   border-radius: 40px;
-  display: none;
   margin-left: 35%;
+}
+
+.container-2,
+#error-msg {
+  display: none;
 }
 
 .container-2 img {
@@ -155,4 +161,11 @@ button:hover {
 #dismiss-button {
   margin-top: 1.5em;
   margin-left: 4.5em;
+}
+
+#error-msg {
+  position: absolute;
+  z-index: 1;
+  margin-left: 42%;
+  margin-top: -14.5%;
 }

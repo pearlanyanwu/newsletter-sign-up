@@ -27,7 +27,6 @@ Users should be able to:
 ### Screenshot
 
 ![](newsletter_1.png)
-![](newsletter_2.png)
 
 ## My process
 
